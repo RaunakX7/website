@@ -74,15 +74,16 @@
 
     <section id="contact">
         <h3>Contact Information</h3>
-        <form action="#" method="post">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1f317baf-e681-4188-96f6-e19fad11f1c3">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="Message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
 
         <!-- Download Resume Button -->
-        <a href="#" class="download-btn" download="Resume.pdf">Download Resume (PDF)</a>
+        <a href="My Professional Resume.pdf" class="download-btn">Download Resume (PDF)</a>
     </section>
 
     <!-- Footer -->
